@@ -13,6 +13,11 @@
         header{
             background-image: linear-gradient(to right,grey,darkgrey,lightgrey);
         }
+        .menu-header{
+            font-size: 1.5em;
+            font-weight: bold;
+            text-shadow: 3px 3px 7px rgb(0, 0, 0);
+        }
         h1,h2,h3,h4,h5{
             text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.274);
             margin: 30px 0px 30px 0px;
@@ -35,6 +40,14 @@
         footer{
             background-color: #573F7E;
             color: darkgray;
+            font-size: 1.5em;
+            text-shadow: 3px 3px 7px rgb(0, 0, 0);
+        }
+        .link-footer{
+            text-decoration: none; color:darkgray
+        }
+        .link-footer:hover{
+            color:lightgray;
         }
     </style>
 </head>
@@ -47,16 +60,16 @@
         <div class="container-fluid justify-content-center">
             <ul class="navbar-nav">
                 <li class="nav-item mx-5">
-                    <a href="#" class="nav-link">Home</a>
+                    <a href="#" class="nav-link menu-header">Home</a>
                 </li>
                 <li class="nav-item mx-5">
-                    <a href="#" class="nav-link">Arquivos</a>
+                    <a href="#" class="nav-link menu-header">Arquivos</a>
                 </li>
                 <li class="nav-item mx-5">
-                    <a href="#" class="nav-link">Repositório</a>
+                    <a href="#" class="nav-link menu-header">Repositório</a>
                 </li>
                 <li class="nav-item mx-5">
-                    <a href="#" class="nav-link">Contato</a>
+                    <a href="#" class="nav-link menu-header">Contato</a>
                 </li>
             </ul>
         </div>
@@ -164,8 +177,8 @@
         </div>
     </main>
     <footer class="p-3">
-        <p class="text-center">Página feita por <a href="mailto:jharbes@hotmail.com" style="text-decoration: none; color:darkgray"><strong>Jorge Harbes</strong></a></p>
-        <p class="text-center"><a href="https://www.linkedin.com/in/jorge-harbes-0664161a7/" target="_blank" style="text-decoration: none; color:darkgray"><strong>LinkedIn</strong></a> | <a href="https://github.com/jharbes" target="_blank" style="text-decoration: none; color:darkgray"><strong>GitHub</strong></a></p>
+        <p class="text-center">Página feita por <a class="link-footer" href="mailto:jharbes@hotmail.com"><strong>Jorge Harbes</strong></a></p>
+        <p class="text-center"><a class="link-footer" href="https://www.linkedin.com/in/jorge-harbes-0664161a7/" target="_blank"><strong>LinkedIn</strong></a> | <a class="link-footer" href="https://github.com/jharbes" target="_blank"><strong>GitHub</strong></a></p>
     </footer>
 <script>
     const marcar=(obj)=>{
