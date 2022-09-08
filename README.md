@@ -1,5 +1,5 @@
-<img src="bootstrap-logo.png" align="right" width="150">
-<img src="html5-css3-logo.png" align="right" width="150">
+<img src="imagens/kindpng_2258787.png" align="right" width="100">
+<img src="html5-css3-logo.png" align="right" width="100">
 
 # projeto-pagina-bootstrap
 
