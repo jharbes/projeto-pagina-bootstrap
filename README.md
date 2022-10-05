@@ -2,6 +2,7 @@
 
 # projeto-pagina-bootstrap
 
-Projeto Página Bootstrap, feito com utilização de HTML5, CSS3 e o framework Bootstrap.
+<h3>Projeto Página Bootstrap, feito com utilização de HTML5, CSS3 e o framework Bootstrap.</h3>
+<br>
 
 Acesse aqui: https://jharbes.github.io/projeto-pagina-bootstrap/
